@@ -54,7 +54,7 @@
                                         <nav class="sb-sidenav-menu-nested nav">
                                         @if(isset(auth()->user()->role->permission ['name']['leave']['can-list']))
                                         <a class="nav-link" href="{{route('leaves.index')}}">
-                                            List Leaves tttttt
+                                            List Leaves
                                         </a>
                                         @endif
                                         <a class="nav-link" href="{{route('leaves.create')}}">
